@@ -11,4 +11,25 @@ This project is an end-to-end medical AI application that predicts patient test 
 - 📊 Visual confidence (probability) bar chart
 - 🔁 Encoders & scaler included for inference
 
-## 📁 Project Structure
+## 📦 How to Run the App
+
+### 🔹 Step into the app folder
+```bash
+cd app
+```
+
+### 🚀 Run FastAPI backend
+```bash
+uvicorn main:app --reload
+```
+Visit: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to test the API.
+
+---
+
+### 🎨 Run Streamlit Web App
+```bash
+streamlit run app.py
+```
+Visit: [http://localhost:8501](http://localhost:8501) to use the web UI.
+
+---
