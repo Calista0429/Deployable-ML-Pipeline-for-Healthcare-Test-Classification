@@ -20,7 +20,7 @@ cd app
 
 ### 🚀 Run FastAPI backend
 ```bash
-uvicorn main:app --reload
+fastapi run main.py
 ```
 Visit: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to test the API.
 
