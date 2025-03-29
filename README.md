@@ -33,3 +33,5 @@ streamlit run app.py
 Visit: [http://localhost:8501](http://localhost:8501) to use the web UI.
 
 ---
+
+Data source: [Kaggle Healthcare Dataset](https://www.kaggle.com/code/prashant1310/health-care-dataset/input)
