@@ -34,4 +34,11 @@ Visit: [http://localhost:8501](http://localhost:8501) to use the web UI.
 
 ---
 
+## 🧠 Next Steps
+
+- [x] Deploy on Docker
+- [ ] Deploy on AWS
+- [ ] Model monitoring and MLOps building
+
+---
 Data source: [Kaggle Healthcare Dataset](https://www.kaggle.com/code/prashant1310/health-care-dataset/input)
