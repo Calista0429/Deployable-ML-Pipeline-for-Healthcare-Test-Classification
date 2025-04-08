@@ -5,11 +5,17 @@ import matplotlib.pyplot as plt
 import numpy as np
 from function import Pipeline  
 
-# 加载模型和编码器
-model = joblib.load("./app/data/ensemble_model.pkl")
-cls_encoder = joblib.load("./app/data/categorical_encoder.pkl")
-label_encoder = joblib.load("./app/data/label_encoder.pkl")
-feature_names = joblib.load("./app/data/feature_names.pkl")
+# Load model Dockerfile
+# model = joblib.load("./app/data/ensemble_model.pkl")
+# cls_encoder = joblib.load("./app/data/categorical_encoder.pkl")
+# label_encoder = joblib.load("./app/data/label_encoder.pkl")
+# feature_names = joblib.load("./app/data/feature_names.pkl")
+
+# FastAPI
+model = joblib.load("data/ensemble_model.pkl")
+cls_encoder = joblib.load("data/categorical_encoder.pkl")
+label_encoder = joblib.load("data/label_encoder.pkl")
+feature_names = joblib.load("data/feature_names.pkl")
 
 st.set_page_config(page_title="Medical Test Prediction", layout="centered")
 st.title("🧬 Medical Test Result Prediction")

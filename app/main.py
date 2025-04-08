@@ -6,11 +6,17 @@ from function import Pipeline
 
 
 
-# define model info
+# define model info Docerfile
 model_path = "./app/data/ensemble_model.pkl"
 encoder_path = "./app/data/categorical_encoder.pkl"
 label_encoder_path = "./app/data/label_encoder.pkl"
 feature_path = "./app/data/feature_names.pkl"
+
+# define model info API
+# model_path = "data/ensemble_model.pkl"
+# encoder_path = "data/categorical_encoder.pkl"
+# label_encoder_path = "data/label_encoder.pkl"
+# feature_path = "data/feature_names.pkl"
 
 # load model
 model = joblib.load(model_path)
